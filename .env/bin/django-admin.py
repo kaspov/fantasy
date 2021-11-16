@@ -1,4 +1,4 @@
-#!/home/rabin/MyProjects/Blog/.env/bin/python
+#!/home/rabind/fantasy/.env/bin/python
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 

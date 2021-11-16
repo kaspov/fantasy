@@ -1,4 +1,4 @@
-#!/home/rabin/MyProjects/Blog/.env/bin/python
+#!/home/rabind/fantasy/.env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
