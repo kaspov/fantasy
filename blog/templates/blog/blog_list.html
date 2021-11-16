@@ -1,0 +1,10 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+<ul>
+{% for blog in object_list %}
+<a class="alert alert-primary" href="{% url "blog-detail" blog.id %}">{{blog.title}}</a>
+	<p class="alert alert-success">{{blog.body}}</p>
+{% endfor %}
+</ul>
+{% endblock %}

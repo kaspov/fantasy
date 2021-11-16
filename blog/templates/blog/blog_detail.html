@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+
+<p class="alert alert-danger"> {{object.title}}
+</p>
+<small class="text-align-right alert alert-success"> created at: {{object.created_at}}</small>
+<p class="alert alert-light"> {{object.body}}</p>
+<small class="alert alert-success"> last modified: {{object.last_modified}}</small>
+
+
+{% endblock %}
